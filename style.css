@@ -1,69 +1,54 @@
-.vertical-align {
-    display: flex;
-    align-items: center;
-  }
-
+/* Style body */
 body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: darkgray;
+  color:black
 }
 
+/* Style font color */
 * {
-    color:black;
+  color: black;
 }
 
+/* Style images */
 img {
-    max-width: 100%;
-    height: auto;
-  }
-
-.row-centered {
-    text-align: center;
-}
-.col-centered {
-    float:none;
-    text-align: left;
-    margin-right: -4px;
+  max-width: 100%;
+  height: auto;
 }
 
-.vertical-center
-{
- display: table-cell;
- float: none;
- vertical-align: middle;
-}
-
+/* Style scrollbar */
 ::-webkit-scrollbar {
-    width: 5px;
-    height: 5px;
+  width: 5px;
+  height: 5px;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.0); 
-    -webkit-border-radius: 8px;
-    border-radius: 15px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.0);
+  -webkit-border-radius: 8px;
+  border-radius: 15px;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    -webkit-border-radius: 8px;
-    height: 100px;
-    border-radius: 100px;
-    background: rgba(0, 0, 0, 0.8); 
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
-}
-::-webkit-scrollbar-thumb:window-inactive {
-    background: rgba(0, 0, 0, 0.0); 
+  -webkit-border-radius: 8px;
+  height: 100px;
+  border-radius: 100px;
+  background: rgba(0, 0, 0, 0.8);
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
 }
 
+::-webkit-scrollbar-thumb:window-inactive {
+  background: rgba(0, 0, 0, 0.0);
+}
+
+/* Style cards */
 .flip-card {
   background-color: transparent;
   width: 85%;
   height: 270px;
   perspective: 1000px;
   margin-top: 20px;
-  /* border-radius: 5%; */
 }
 
 .flip-card-inner {
@@ -73,15 +58,15 @@ img {
   text-align: center;
   transition: transform 0.6s;
   transform-style: preserve-3d;
-  box-shadow: 0 6px 12px 0 rgba(0,0,0,0.5);
-  /* border-radius: 5%; */
+  box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.5);
 }
 
 .flip-card:hover .flip-card-inner {
   transform: rotateY(180deg);
 }
 
-.flip-card-front, .flip-card-back {
+.flip-card-front,
+.flip-card-back {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -91,7 +76,6 @@ img {
 .flip-card-front {
   background-color: rgb(228, 228, 228);
   color: black;
-  /* border-radius: 5%; */
   z-index: 2;
 }
 
@@ -99,16 +83,15 @@ img {
   background-color: rgb(228, 228, 228);
   color: white;
   transform: rotateY(180deg);
-  /* border-radius: 5%; */
   z-index: 1;
 }
 
-footer{
-    position:fixed;
-    left:0px;
-    bottom:0px;
-    height:30px;
-    width:100%;
-    background:#999;
- }
- 
+/* Style footer */
+footer {
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  height: 30px;
+  width: 100%;
+  background: #999;
+}
