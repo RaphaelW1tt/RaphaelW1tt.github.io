@@ -1,0 +1,20 @@
+p {
+    text-align: center;
+    font-size: 0.8em;
+}
+
+.col {
+    text-align: center;
+}
+
+.card-title {
+    text-align: center;
+}
+
+a .fab {
+    color: black;
+}
+
+a:hover .fab {
+    color: gray;
+}

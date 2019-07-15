@@ -1,24 +1,28 @@
 <!DOCTYPE html>
 
-<html lang="de">
+<html lang="en">
 
 <head>
   <!-- Default information -->
   <meta name="format-detection" content="telephone=no">
   <meta name="msapplication-tap-highlight" content="no">
-  <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+  <meta name="viewport"
+    content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
 
   <!-- Own information -->
   <!-- Encoding -->
   <meta charset="UTF-8">
   <!-- Description of Web Page -->
-  <meta name="description" content="Webseite von Raphael Witt">
+  <meta name="description" content="Website of Raphael Witt">
   <!-- Keywords important for Google -->
-  <meta name="keywords" content="Raphael, Witt, Raphael Witt, Geoinformatik, Student">
+  <meta name="keywords" content="Raphael, Witt, Raphael Witt, Geoinformatics">
   <title>Raphael Witt</title>
 
   <!-- Latest compiled and minified Bootstrap CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+  <!--Fontawesome - load all icon styles-->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/index.css">
 
   <!-- Popper JS -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
@@ -27,205 +31,46 @@
   <!-- Latest compiled Bootstrap JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
 
-  <!-- ToDo: 
-  - Language switch -->
-
-  <style type="text/css">
-    .vertical-align {
-      display: flex;
-      align-items: center;
-    }
-  </style>
-
 </head>
 
 <body>
-  <header>
-    <div class="container-fluid" style="background-color: lightgray">
-      <div class="container" style="padding: 15px">
-        <div class="row vertical-align">
-          <div class="col-md-6">
-            <img src="img/raphael.jpg" alt="Profilbild" class="mx-auto d-block rounded" alt="Bild" />
-          </div>
-          <div class="col-md-5" style="text-align:center; margin-top: 15px">
-            <h3> Raphael Witt </h3>
-            <p> Mein Name ist Raphael Witt und das ist meine Website. Sie wird während meines Masterstudiums der
-              Geoinformatik an der Universität in Münster stetig erweitert. </p>
-            <p> Hier finden Sie eine Übersicht über meinen Lebenslauf und Projekte, an denen ich arbeite. </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </header>
-
-  <main>
-    <div class="container" style="margin-top: 20px">
-      <div class="card">
-        <div class="card-header" style="text-align: center;background-color: lightgray" id="Lebenslauf">
-          Lebenslauf
-        </div>
-        <div class="card-body">
-          <h5> Studium und Schule </h5>
-          <table class="table table-borderless table-hover">
-            <tbody>
-              <tr>
-                <td colspan="3">Master of Science, <i>Geoinformatics</i><br />
-                  Westfälische Wilhelms-Universität Münster</td>
-                <td align="right">10/2017 – 09/2019</td>
-              </tr>
-              <tr>
-                <td colspan="3">Bachelor of Science, <i>Geoinformations-Management</i><br />
-                  Hochschule Karlsruhe – Technik und Wirtschaft</td>
-                <td align="right">10/2013 – 06/2017</td>
-              </tr>
-              <tr>
-                <td colspan="3">Abitur</br>
-                  Gymnasium Walldorf</td>
-                <td align="right">09/2005 – 06/2013</td>
-              </tr>
-            </tbody>
-          </table>
-          <h5> Arbeitserfahrung </h5>
-          <table class="table table-borderless table-hover">
-            <tbody>
-              <tr>
-                <td colspan="3">SAP SE</td>
-                <td style="text-align:center">Praktikum</td>
-                <td style="text-align:right">09/2018 – 02/2019</td>
-              </tr>
-              <tr>
-                <td colspan="3">WWU Münster</td>
-                <td style="text-align:center">Werkstudent</td>
-                <td style="text-align:right">03/2018 – 08/2018</td>
-              </tr>
-              <tr>
-                <td colspan="3">PTV GROUP</td>
-                <td style="text-align:center">Werkstudent</td>
-                <td style="text-align:right">08/2016 – 08/2017</td>
-              </tr>
-              <tr>
-                <td colspan="3">WIGeoGIS GmbH</td>
-                <td style="text-align:center">Praktikum</td>
-                <td style="text-align:right">09/2015 – 02/2016</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
-    </div>
-
-    <div class="container" style="margin-top: 20px">
-      <div class="card">
-        <div class="card-header" style="text-align: center;background-color: lightgray" id="Stipendien">
-          Stipendien und Preise
-        </div>
-        <div class="card-body">
-          <table class="table table-borderless table-hover">
-            <tbody>
-              <tr>
-                <td colspan="3">Förderpreis der Deutschen Gesellschaft für Kartographie e.V. (DGfK e.V.)</td>
-                <td>2017</td>
-              </tr>
-              <tr>
-                <td colspan="3">Baden-Württemberg Stipendium</td>
-                <td>2017</td>
-              </tr>
-              <tr>
-                <td colspan="3">e-Follows.net Stipendium</td>
-                <td>2017</td>
-              </tr>
-              <tr>
-                <td colspan="3">careerLoft Stipendium</td>
-                <td>2017</td>
-              </tr>
-              <tr>
-                <td colspan="3">Geographie-Preis des Gymnasiums Walldorf</td>
-                <td>2013</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
-    </div>
-
-    <div class="container" style="margin-top: 20px">
-      <div class="card">
-        <div class="card-header" style="text-align: center;background-color: lightgray" id="Projekte">
-          Projekte
-        </div>
-        <div class="card-body">
-          <table class="table table-borderless table-hover">
-            <tbody>
-              <tr>
-                <td colspan="3"><b>Projekt Supporting remote collaboration with Augmented Reality and architectural
-                    plans</b>
-                  <br />Der Quellcode für dieses Projekt ist noch nicht verfügbar.</td>
-                <td align="right">SS 2018</td>
-              </tr>
-              <tr>
-                <td colspan="3"><b>Projekt Geoinformation in Society</b>
-                  <br />Der Quellcode für dieses Projekt ist verfügbar auf <a href="https://github.com/RaphaelW1tt/GI4Society"
-                    target="_blank">GitHub</a>.</td>
-                <td align="right">WS 2017/2018</td>
-              </tr>
-              <tr>
-                <td colspan="3"><b>Projekt Geomatics and Participation</b>
-                  <br />Der Quellcode für dieses Projekt ist verfügbar auf <a href="https://github.com/RaphaelW1tt/CommunityMapping"
-                    target="_blank">GitHub</a>.</td>
-                <td align="right">SS 2017</td>
-              </tr>
-            </tbody>
-          </table>
-          <p style="text-align:center">Auf meinem <a href="https://github.com/RaphaelW1tt">GitHub-Profil</a> sind
-            weitere Projekte zu finden.
-          </p>
-        </div>
-      </div>
-    </div>
-
-    <div class="container-fluid" style="margin-top: 20px; background-color: lightgray">
-      <div class="container" style="background-color: lightgray">
-        <div class="row">
-          <div class="col-md-6 col-sm-6" style="padding: 15px">
-            <h3> Kontakt </h3>
-            <address>
-              Raphael Witt <br>
-              <a href="mailto:raphaelwitt@web.de"> raphaelwitt at web.de </a>
-            </address>
-          </div>
-          <div class="col-md-6 col-sm-6" style="padding: 15px">
-            <h3> Portale </h3>
-            <div class="row">
-              <div class="col-3">
-                <a href="https://www.xing.com/profile/Raphael_Witt?sc_o=mxb_p" target="_blank">
-                  <img src="img/xing.png" alt="xing" width="50 em" height="50 em" />
-                </a>
-              </div>
-              <div class="col-3">
-                <a href="https://www.linkedin.com/in/raphael-witt-1a8a82119/" target="_blank">
-                  <img src="img/linkedin.png" alt="linkedin" width="50 em" height="50em" />
-                </a>
-              </div>
-              <div class="col-3">
-                <a href="https://github.com/RaphaelW1tt" target="_blank">
-                  <img src="img/github.png" alt="github" width="50 em" height="50em" />
-                </a>
-              </div>
-              <div class="col-3">
-                <a href="https://www.researchgate.net/profile/Raphael_Witt" target="_blank">
-                  <img src="img/researchgate.png" alt="researchgate" width="50 em" height="50em" />
-                </a>
+  <div class="container-fluid" style="background-color: lightgray; width: 100vw; height:97vh;">
+    <div class="container" style="height: 97vh">
+      <div class="row align-items-center" style="height: 97vh">
+        <div class="card mx-auto shadow p-3 mb-5 bg-white rounded" style="width: 18rem;">
+          <img class="card-img-top" src="img/raphael.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Raphael Witt</h5>
+            <p>Geoinformatics Master Student</p>
+            <hr />
+            <div class="container">
+              <div class="row align-items-center">
+                <div class="col">
+                  <a href="https://github.com/RaphaelW1tt">
+                    <i class="fab fa-github fa-2x"></i>
+                  </a>
+                </div>
+                <div class="col">
+                  <a href="https://www.linkedin.com/in/raphael-witt-1a8a82119/">
+                    <i class="fab fa-linkedin fa-2x"></i>
+                  </a>
+                </div>
+                <div class="col">
+                  <a href="https://www.xing.com/profile/Raphael_Witt?sc_o=mxb_p">
+                    <i class="fab fa-xing fa-2x"></i>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="footer" style="text-align:center">
-        <p style="margin: 0px; font-size: 0.7em">Copyright &copy; Raphael Witt (2019)</p>
-      </div>
     </div>
-  </main>
+  </div>
+  <p style="height: 3vh; margin:0; text-align:center;font-size:0.75em; background-color: lightgray">Copyright © Raphael
+    Witt (2019)</p>
 
+  <script src="js/index.js"></script>
 </body>
 
 </html>
