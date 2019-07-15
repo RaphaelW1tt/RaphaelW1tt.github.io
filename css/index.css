@@ -17,4 +17,5 @@ a .fab {
 
 a:hover .fab {
     color: gray;
+    transform: scale(1.25);
 }
