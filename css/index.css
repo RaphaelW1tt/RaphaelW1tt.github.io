@@ -1,6 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap');
+body {
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+}
+
 p {
     text-align: center;
     font-size: 0.8em;
+    font-family: Roboto, sans-serif;
+    font-style: italic;
+    font-weight: 300;
 }
 
 .col {
